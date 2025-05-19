@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <div class="login-header">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            alt="User Icon"
+            class="icon" />
+          <h1>Login</h1>
+        </div>
+
+        <form>
+          <label for="email" class="label">
+            <span class="label-text">Email<span class="required">*</span></span>
+            <input
+              type="email"
+              id="email"
+              placeholder="Masukkan email..."
+              required />
+            <span class="error-message">Email tidak valid</span>
+          </label>
+
+          <label for="password" class="label">
+            <span class="label-text"
+              >Password<span class="required">*</span></span
+            >
+            <input
+              type="password"
+              id="password"
+              placeholder="Masukkan password..."
+              required />
+            <span class="error-message">Password tidak valid</span>
+          </label>
+
+          <button type="submit" class="login-button">LOGIN</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
